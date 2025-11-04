@@ -1,0 +1,37 @@
+# robots.txt for CodeCanvas
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ibtihelbs.github.io/codecanvas/sitemap.xml
+
+# Disallow admin areas (if you add them later)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.xml$
+
+# Allow CSS and JS files
+Allow: /*.css$
+Allow: /*.js$
+
+# Crawl-delay (optional, for heavy crawlers)
+# Crawl-delay: 10
+
+# Specific bot instructions
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block bad bots (optional)
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
