@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "title";
+  src: url(./assets/fonts/CoolveticaRg.otf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -7,14 +11,15 @@
 :root {
   --notion-bg: #ffffff;
   --notion-text: #37352f;
-  --notion-gray: #787774;
+  --notion-gray: #0d0d0d;
   --notion-border: #e9e9e7;
   --notion-hover: #f7f6f3;
-  --notion-blue: #0b6bcb;
+
   --notion-blue-bg: #e7f3ff;
   --notion-yellow: #ffc93c;
   --notion-red: #eb5757;
   --notion-green: #4ade80;
+  --border-btn: 999px;
 }
 
 body {
@@ -40,18 +45,34 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-
+h1,
+h2,
+h3 {
+  font-family: "title", serif;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
 .logo {
   font-size: 18px;
   font-weight: 600;
   color: var(--notion-text);
 }
-
+li {
+  list-style: none;
+}
+nav ul {
+  display: flex;
+  gap: 8px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
 .cta-nav {
   background: var(--notion-text);
   color: white;
   padding: 8px 16px;
-  border-radius: 6px;
+  border-radius: var(--border-btn);
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
@@ -72,8 +93,7 @@ nav {
 }
 
 .hero-badge {
-  display: inline-flex;
-  align-items: center;
+  display: flex;
   gap: 6px;
   background: var(--notion-blue-bg);
   color: var(--notion-blue);
@@ -124,7 +144,7 @@ nav {
   background: var(--notion-text);
   color: white;
   padding: 14px 28px;
-  border-radius: 8px;
+  border-radius: var(--border-btn);
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
@@ -145,7 +165,7 @@ nav {
   color: var(--notion-text);
   padding: 14px 28px;
   border: 2px solid var(--notion-border);
-  border-radius: 8px;
+  border-radius: var(--border-btn);
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
