@@ -7,7 +7,7 @@ function toggleAccordion(element) {
     i.classList.remove("active");
   });
 
-  // Open clicked item if it wasn't active
+  // loool Open clicked item if it wasn't active
   if (!wasActive) {
     item.classList.add("active");
   }
