@@ -80,7 +80,7 @@ window.addEventListener("scroll", () => {
     progressBar.style.width = scrolled + "%";
   }
 });
-const countDownDate = new Date("nov 17, 2025 9:00:00").getTime();
+const countDownDate = new Date("dec 15, 2025 8:00:00").getTime();
 
 // Update the count down every 1 second
 const x = setInterval(function () {
