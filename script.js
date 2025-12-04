@@ -107,3 +107,13 @@ const x = setInterval(function () {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+function toggleMenu() {
+  alert("hh9");
+  const menu = document.getElementById("nav-menu");
+  menu.classList.toggle("active");
+}
+document
+  .querySelector(".mobile-menu-btn")
+  .addEventListener("click", toggleMenu);
+console.log(document.querySelector(".mobile-menu-btn"));

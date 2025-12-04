@@ -1,0 +1,60 @@
+h1,
+h2,
+h3 {
+  font-family: var(--font-family-serif);
+  max-width: 1000px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: clamp(32px, 9vw, 100px);
+  letter-spacing: -0.05;
+  line-height: 0.95;
+}
+h1.capitalize {
+  font-size: clamp(32px, 20vw, 180px);
+  line-height: 0.7;
+  transform: rotate(-5deg);
+}
+h2.capitalize {
+  font-size: clamp(32px, 8vw, 100px);
+  line-height: 0.7;
+}
+h2 {
+  letter-spacing: -0.02em;
+  font-size: clamp(20px, 4vw, 40px);
+}
+
+p {
+  font-size: clamp(16px, 2vw, 20px);
+  max-width: 600px;
+  line-height: 1.7;
+}
+
+.text-sm {
+  font-size: var(--base-font-size);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.italic {
+  font-style: oblique;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  font-family: var(--font-family-serif);
+}
+.capitalize + p .italic {
+  text-transform: capitalize;
+  font-size: calc(var(--base-font-size) * 1.618 * 2.5);
+  line-height: 0.7;
+}
+
+.coffee-shop .stroked-text {
+  -webkit-text-stroke: 0.5px var(--color-bg); /* 2px wide blue stroke */
+  color: var(--color-accent); /* Makes the text fill transparent */
+}
+.coffee-shop #hero-section p {
+  color: var(--color-bg);
+}

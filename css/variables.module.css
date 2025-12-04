@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "cooworking";
+  src: url(../assets/fonts/Anton.ttf);
+}
+:root {
+  --coworking: "cooworking";
+  --font-sans-default: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, sans-serif;
+  --color-primary: rgb(60, 60, 88);
+  --color-accent: rgb(253, 233, 14);
+  --color-text: #000000;
+  --color-bg: rgb(244, 242, 231);
+  --border-radius: 20px;
+  --border-pill: 999px;
+  --font-family-sans: var(--font-sans-default);
+  --font-family-serif: var(--coworking);
+  --space-1: 1rem;
+  --space-2: 2rem;
+  --space-3: 3rem;
+  --space-4: 4rem;
+  --space-5: 5rem;
+  --space-6: 6rem;
+  --base-font-size: 12px;
+  --transition-ease: all 0.3s ease-in-out;
+  --hero-background: none;
+}

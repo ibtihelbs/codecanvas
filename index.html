@@ -4,415 +4,258 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Primary Meta Tags -->
-<title>Transforme tes Compétences en Portfolio Pro | Formation 16h</title>
-<meta name="title" content="Transforme tes Compétences en Portfolio Pro | Formation 16h" />
-<meta name="description" content="Formation pratique 16h pour créer ton portfolio développeur web professionnel. HTML, CSS, JavaScript. En ligne via Google Meet. Places limitées." />
+    <title>Transforme tes Compétences en Portfolio Pro | Formation 16h</title>
+    <meta
+      name="title"
+      content="Transforme tes Compétences en Portfolio Pro | Formation 16h"
+    />
+    <meta
+      name="description"
+      content="Formation pratique 16h pour créer ton portfolio développeur web professionnel. HTML, CSS, JavaScript. En ligne via Google Meet. Places limitées."
+    />
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://ibtihelbs.github.io/codecanvas/" />
-<meta property="og:title" content="Transforme tes Compétences en Portfolio Pro | Formation 16h" />
-<meta property="og:description" content="Formation pratique 16h pour créer ton portfolio développeur web professionnel. HTML, CSS, JavaScript. En ligne via Google Meet. Places limitées." />
-<meta property="og:image" content="https://ibtihelbs.github.io/codecanvas/assets/images/preview.png" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ibtihelbs.github.io/codecanvas/" />
+    <meta
+      property="og:title"
+      content="Transforme tes Compétences en Portfolio Pro | Formation 16h"
+    />
+    <meta
+      property="og:description"
+      content="Formation pratique 16h pour créer ton portfolio développeur web professionnel. HTML, CSS, JavaScript. En ligne via Google Meet. Places limitées."
+    />
+    <meta
+      property="og:image"
+      content="https://ibtihelbs.github.io/codecanvas/assets/images/preview.png"
+    />
 
-<!-- X (Twitter) -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://ibtihelbs.github.io/codecanvas/" />
-<meta property="twitter:title" content="Transforme tes Compétences en Portfolio Pro | Formation 16h" />
-<meta property="twitter:description" content="Formation pratique 16h pour créer ton portfolio développeur web professionnel. HTML, CSS, JavaScript. En ligne via Google Meet. Places limitées." />
-<meta property="twitter:image" content="https://ibtihelbs.github.io/codecanvas/assets/images/preview.png" />
+    <!-- X (Twitter) -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://ibtihelbs.github.io/codecanvas/"
+    />
+    <meta
+      property="twitter:title"
+      content="Transforme tes Compétences en Portfolio Pro | Formation 16h"
+    />
+    <meta
+      property="twitter:description"
+      content="Formation pratique 16h pour créer ton portfolio développeur web professionnel. HTML, CSS, JavaScript. En ligne via Google Meet. Places limitées."
+    />
+    <meta
+      property="twitter:image"
+      content="https://ibtihelbs.github.io/codecanvas/assets/images/preview.png"
+    />
 
-<!-- Meta Tags Generated with https://metatags.io -->
+    <!-- Meta Tags Generated with https://metatags.io -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Navigation -->
-    <nav>
-      <img src="./assets/images/logo.png" alt="LOGO" height="70">
-      <ul>
-        <li><a href="#programme">Program</a></li>
-        <li><a href="#prerequis">prerequis</a></li>
-        <li><a href="#Q&A">Q&A</a></li>
-      </ul>
-      <a href="#inscription" class="cta-nav">S'inscrire</a>
-    </nav>
+    <header>
+      <nav>
+        <img src="./assets/images/logo.png" alt="" height="80" />
+
+        <button class="mobile-menu-btn" aria-label="Toggle menu">☰</button>
+        <ul id="nav-menu" data-content="navigation">
+          <li><a href="#programme">Programme</a></li>
+          <li><a href="#prerequis">Prérequis</a></li>
+          <li><a href="#faq">Q&A</a></li>
+          <li><a href="#cta-section">S'inscrire</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <!-- Hero Section -->
-    <section class="hero">
-      <h1 class="hero-title">
-        Transforme
-        <img
-          class="tech-icon"
-          src="./assets/images/icons8-html-5-100.png"
-          alt=""
-          aria-hidden="true"
-          loading="lazy"
-        />
-        tes
-        <img
-          class="tech-icon"
-          src="./assets/images/icons8-css3-100.png"
-          alt=""
-          aria-hidden="true"
-          loading="lazy"
-        />
-        compétences
-        <img
-          class="tech-icon"
-          src="./assets/images/icons8-javascript-100.png"
-          alt=""
-          aria-hidden="true"
-          loading="lazy"
-        />
-        en
-        <span class="hero-highlight">Portfolio Professionnel</span>
-      </h1>
-      <p>
-        Tu connais HTML, CSS & JS mais tu n'as aucun projet à montrer ? Crée ton
-        portfolio en 16h.
-      </p>
-      <div class="hero-ctas">
-        <a href="https://wa.me/92398964" class="btn-primary">
-          Commencer maintenant →
-        </a>
-        <a href="#programme" class="btn-secondary"> Voir le programme </a>
+    <section id="hero-section" data-content="hero">
+      <div class="underlay"></div>
+      <div class="container">
+        <h1 class="text-center stroked-text" data-field="headline">
+          Transforme tes compétences en
+          <span class="italic">Portfolio Professionnel</span>
+        </h1>
+        <p class="text-center" data-field="subheadline">
+          Tu connais HTML, CSS & JS mais tu n'as aucun projet à montrer ?<br />
+          Crée ton portfolio complet en seulement
+          <strong>16 heures de pratique guidée</strong>.
+        </p>
+        <div class="cta-box" data-content="cta-buttons">
+          <a href="#programme" class="pill-button">Voir le programme</a>
+          <a href="#cta-section" class="pill-button">Commencer maintenant</a>
+        </div>
       </div>
     </section>
 
     <!-- Problem Section -->
-    <div class="container">
-      <div class="section">
-        <div class="callout">
-          <div class="callout-icon">🤔</div>
-          <div class="callout-content">
-            <h3>Tu as les compétences mais aucun projet à montrer ?</h3>
-            <p>
-              Tu as suivi des tutoriels, tu connais la théorie, mais ton CV et
-              ton GitHub sont vides.
-            </p>
-          </div>
+    <section id="problem-section" class="text-center" data-content="problem">
+      <h1>🤔 Tu as les compétences mais aucun projet à montrer ?</h1>
+      <p>
+        Tu as suivi des tutoriels, tu connais la théorie…<br />
+        mais ton CV et ton GitHub sont encore vides.
+      </p>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution-section" data-content="solution">
+      <h1 class="text-center" data-field="title">
+        En 16h, transforme tes connaissances en projet professionnel
+      </h1>
+      <div class="grid-cols-4">
+        <div class="feature-item">
+          <h2>Design Pro Inclus</h2>
+          <p>
+            Démarre avec un template professionnel puis personnalise-le à ton
+            image
+          </p>
         </div>
-      </div>
-
-      <!-- Solution Section -->
-      <div class="section">
-        <h1 class="section-title">La solution</h1>
-        <p class="section-subtitle">
-          En 16h, transforme tes connaissances en projet professionnel
-        </p>
-
-        <div class="features-grid">
-          <div class="feature-card">
-            <div class="feature-icon">🎨</div>
-            <h3>Design Pro Inclus</h3>
-            <p>
-              Démarre avec un template professionnel, puis personnalise-le à ton
-              image
-            </p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-icon">🏗️</div>
-            <h3>Architecture Évolutive</h3>
-            <p>
-              Code structuré et modulaire pour ajouter facilement tes futurs
-              projets
-            </p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-icon">⚡</div>
-            <h3>Best Practices</h3>
-            <p>
-              Apprends à coder comme un professionnel avec les bonnes pratiques
-            </p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-icon">🚀</div>
-            <h3>Déploiement en Ligne</h3>
-            <p>
-              Ton portfolio sera accessible sur Internet dès la fin de la
-              formation
-            </p>
-          </div>
+        <div class="feature-item">
+          <h2>Architecture Évolutive</h2>
+          <p>
+            Code structuré et modulaire pour ajouter facilement tes futurs
+            projets
+          </p>
         </div>
-      </div>
-
-      <div class="divider"></div>
-
-      <!-- Target Audience -->
-      <section id="prerequis">
-        <h1 class="section-title">Cette formation est pour toi si...</h1>
-        <ul class="checklist">
-          <li>
-            <span class="check-icon">✓</span>
-            <span>Tu as des bases en HTML, CSS et JavaScript</span>
-          </li>
-          <li>
-            <span class="check-icon">✓</span>
-            <span
-              >Tu as suivi des tutoriels mais jamais créé de projet
-              complet</span
-            >
-          </li>
-          <li>
-            <span class="check-icon">✓</span>
-            <span>Tu cherches un stage ou emploi développeur web</span>
-          </li>
-          <li>
-            <span class="check-icon">✓</span>
-            <span>Tu veux te lancer en freelance et attirer des clients</span>
-          </li>
-          <li>
-            <span class="check-icon">✓</span>
-            <span>Tu veux améliorer tes compétences en pratiquant</span>
-          </li>
-          <li>
-            <span class="check-icon">✓</span>
-            <span>Tu as besoin d'un projet pour ton CV et GitHub</span>
-          </li>
-        </ul>
-      </section>
-
-      <div class="divider"></div>
-
-      <!-- Program Section -->
- <section id="programme">
-        <h1 class="section-title">Programme de la formation</h1>
-        <p class="section-subtitle">
-          16 heures de pratique guidée pour construire ton portfolio
-        </p>
-
-        <div class="toggle-list">
-          <div class="toggle-item">
-            <div class="toggle-header" onclick="toggleAccordion(this)">
-              <span>Jour 1 : Fondations & Structure (4h)</span>
-              <span class="toggle-arrow">›</span>
-            </div>
-            <div class="toggle-content">
-              <div class="toggle-content-inner">
-                <ul>
-                  <li>Découverte du template et architecture du projet</li>
-                  <li>HTML sémantique : structurer ton portfolio correctement</li>
-                  <li>Introduction aux variables CSS et système de couleurs</li>
-                  <li>Créer ta première section : le header avec navigation</li>
-                  <li>Setup de ton environnement de travail (VS Code, extensions)</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="toggle-item">
-            <div class="toggle-header" onclick="toggleAccordion(this)">
-              <span>Jour 2 : Design & Responsive (4h)</span>
-              <span class="toggle-arrow">›</span>
-            </div>
-            <div class="toggle-content">
-              <div class="toggle-content-inner">
-                <ul>
-                  <li>Section Hero : créer une première impression forte</li>
-                  <li>Flexbox en pratique : layouts flexibles et modernes</li>
-                  <li>CSS Grid pour la galerie de projets</li>
-                  <li>Mobile-first : rendre ton site responsive</li>
-                  <li>Tester sur différentes tailles d'écran</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="toggle-item">
-            <div class="toggle-header" onclick="toggleAccordion(this)">
-              <span>Jour 3 : Interactivité JavaScript (4h)</span>
-              <span class="toggle-arrow">›</span>
-            </div>
-            <div class="toggle-content">
-              <div class="toggle-content-inner">
-                <ul>
-                  <li>Menu hamburger mobile fonctionnel</li>
-                  <li>Navigation smooth scroll entre les sections</li>
-                  <li>Animations au scroll (reveal on scroll)</li>
-                  <li>Formulaire de contact avec validation</li>
-                  <li>Comprendre et modifier le JavaScript du template</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="toggle-item">
-            <div class="toggle-header" onclick="toggleAccordion(this)">
-              <span>Jour 4 : Personnalisation & Mise en Ligne (4h)</span>
-              <span class="toggle-arrow">›</span>
-            </div>
-            <div class="toggle-content">
-              <div class="toggle-content-inner">
-                <ul>
-                  <li>Personnaliser les couleurs et la typographie à ton image</li>
-                  <li>Ajouter tes projets et ton contenu unique</li>
-                  <li>Optimiser les images pour le web</li>
-                  <li>Déployer sur GitHub Pages (gratuit et rapide)</li>
-                  <li>Acheter et connecter un nom de domaine (optionnel)</li>
-                  <li>Conseils SEO de base pour être trouvé sur Google</li>
-                  <li>Comment continuer à améliorer ton portfolio après la formation</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+        <div class="feature-item">
+          <h2>Best Practices</h2>
+          <p>Apprends à coder comme un pro avec des méthodes modernes</p>
         </div>
-      </section>
-
-      <div class="divider"></div>
-
-      <!-- What You Get -->
-      <div class="section">
-        <h1 class="section-title">Ce que tu reçois</h1>
-        <div class="features-grid">
-          <div class="feature-card">
-            <div class="feature-icon">📹</div>
-            <h3>Sessions Live</h3>
-            <p>16h de formation interactive via Google Meet</p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-icon">🎥</div>
-            <h3>Replays Disponibles</h3>
-            <p>Revoir les sessions quand tu veux</p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-icon">💾</div>
-            <h3>Code Source Complet</h3>
-            <p>Template professionnel + tous les fichiers</p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-icon">👥</div>
-            <h3>Groupe d'Entraide</h3>
-            <p>WhatsApp avec les autres participants</p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-icon">💬</div>
-            <h3>Support Continu</h3>
-            <p>Assistance même après la formation</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="divider"></div>
-
-      <!-- Pricing -->
-      <div class="section" id="inscription">
-        <h1 class="section-title">Tarif & Inscription</h1>
-
-        <div class="pricing-card">
-          <div class="pricing-badge">-30% OFFRE DE LANCEMENT</div>
-          <div class="pricing-amount">150 TND</div>
-          <div class="pricing-period">Formation complète 16h</div>
-
-          <div class="pricing-features">
-            <ul class="checklist">
-              <li>
-                <span class="check-icon">✓</span>
-                <span>16h de formation live via Google Meet</span>
-              </li>
-              <li>
-                <span class="check-icon">✓</span>
-                <span>Template portfolio professionnel</span>
-              </li>
-              <li>
-                <span class="check-icon">✓</span>
-                <span>Code source complet fourni</span>
-              </li>
-              <li>
-                <span class="check-icon">✓</span>
-                <span>Replays de toutes les sessions</span>
-              </li>
-              <li>
-                <span class="check-icon">✓</span>
-                <span>Groupe WhatsApp d'entraide</span>
-              </li>
-              <li>
-                <span class="check-icon">✓</span>
-                <span>Support après la formation</span>
-              </li>
-            </ul>
-          </div>
-
-          <a href="#" class="btn-primary">Je m'inscris maintenant →</a>
-
-          <ul class="inscription-info">
-            <li>👥 Places limitées : 5 participants maximum</li>
-            <li>📅 Prochaine session : 10/11/2025 <span id="time"></span></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="divider"></div>
-
-      <!-- FAQ -->
-      <section>
-        <h1 class="section-title">Questions Fréquentes</h1>
-
-        <div class="faq-item">
-          <h3 class="faq-question">
-            Quel niveau est requis pour suivre cette formation ?
-          </h3>
-          <div class="faq-answer">
-            Tu dois avoir des connaissances de base en HTML, CSS et JavaScript.
-            Si tu as déjà suivi des tutoriels ou des cours introductifs, c'est
-            parfait !
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <h2 class="faq-question">Ai-je besoin d'un ordinateur puissant ?</h2>
-          <div class="faq-answer">
-            Non, un ordinateur ou laptop basique suffit (4GB RAM minimum). Tu
-            auras juste besoin d'un éditeur de code (VS Code gratuit) et d'un
-            navigateur web.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <h2 class="faq-question">
-            Que se passe-t-il si je rate une session ?
-          </h2>
-          <div class="faq-answer">
-            Pas de panique ! Toutes les sessions sont enregistrées et tu auras
-            accès aux replays. Tu pourras les revoir autant de fois que
-            nécessaire.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <h2 class="faq-question">Y a-t-il du support après la formation ?</h2>
-          <div class="faq-answer">
-            Oui ! Tu auras accès au groupe WhatsApp et tu pourras poser tes
-            questions même après la fin de la formation. Nous sommes là pour
-            t'accompagner dans ton évolution.
-          </div>
+        <div class="feature-item">
+          <h2>Déploiement en Ligne</h2>
+          <p>Ton portfolio sera en ligne dès la fin de la formation</p>
         </div>
       </div>
     </section>
 
-    <!-- Footer CTA -->
-    <section class="container">
-      <div class="footer-cta">
-        <h1>Prêt à créer ton portfolio professionnel ?</h1>
-        <p>Transforme tes compétences en projet concret dès maintenant</p>
-        <a href="https://wa.me/92398964" class="btn-white"
-          >Commencer la formation →</a
-        >
+    <!-- Prerequis -->
+    <section id="prerequis" data-content="about">
+      <h1 class="text-center" data-field="title">
+        Cette formation est pour toi si...
+      </h1>
+      <ul class="checklist">
+        <li>✓ Tu as des bases en HTML, CSS et JavaScript</li>
+        <li>✓ Tu as suivi des tutoriels mais jamais créé de vrai projet</li>
+        <li>✓ Tu veux améliorer tes compétences en pratiquant</li>
+      </ul>
+    </section>
+
+    <!-- Programme -->
+    <section id="program" data-content="services">
+      <h1 class="text-center" data-field="title">Programme de la formation</h1>
+      <h3 class="text-center">
+        16 heures de pratique pour construire ton portfolio
+      </h3>
+      <div class="accordion">
+        <div class="service-item flex-row">
+          <h2>Jour 1 : Fondations & Structure (4h)</h2>
+        </div>
+        <div class="service-item flex-row">
+          <h2>Jour 2 : Design & Responsive (4h)</h2>
+        </div>
+        <div class="service-item flex-row">
+          <h2>Jour 3 : Interactivité JavaScript (4h)</h2>
+        </div>
+        <div class="service-item flex-row">
+          <h2>Jour 4 : Personnalisation & Mise en Ligne (4h)</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Avantages Section -->
+    <section id="projects-section">
+      <h1 class="text-center" data-field="title">Ce que tu reçois</h1>
+      <div class="grid-cols-3">
+        <div class="preview">
+          <h2>📹 Sessions Live</h2>
+          <p>16h de formation interactive via Google Meet</p>
+        </div>
+        <div class="preview">
+          <h2>🎥 Replays</h2>
+          <p>Revois les sessions quand tu veux</p>
+        </div>
+        <div class="preview">
+          <h2>💾 Code Source</h2>
+          <p>Template professionnel + tous les fichiers</p>
+        </div>
+        <div class="preview">
+          <h2>👥 Groupe WhatsApp</h2>
+          <p>Entraide avec les autres participants</p>
+        </div>
+        <div class="preview">
+          <h2>💬 Support Continu</h2>
+          <p>Assistance même après la formation</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta-section" data-content="cta">
+      <h1 class="text-center" data-field="title">Tarif & Inscription</h1>
+      <h2 class="text-center">-30% OFFRE DE LANCEMENT</h2>
+      <div class="price text-center">150 TND</div>
+      <ul class="checklist center">
+        <li>✓ 16h de formation live via Google Meet</li>
+        <li>✓ Template portfolio professionnel</li>
+        <li>✓ Replays disponibles</li>
+        <li>✓ Groupe WhatsApp d'entraide</li>
+        <li>✓ Support après la formation</li>
+      </ul>
+      <a class="pill-button cta" href="https://wa.me/92398964"
+        >Je m'inscris maintenant</a
+      >
+      <p class="text-center text-sm">
+        👥 Places limitées : 5 participants<br />📅 Prochaine session : 15
+        décembre 2025
+      </p>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="testimonials-section" data-content="testimonials-section">
+      <h1 class="text-center" data-field="title">Questions Fréquentes</h1>
+      <div class="mobile-slider flex-col space-1">
+        <div class="testimonial-card flex-col">
+          <h2>Quel niveau est requis ?</h2>
+          <p>Des bases en HTML, CSS et JS suffisent.</p>
+        </div>
+        <div class="testimonial-card flex-col">
+          <h2>Ai-je besoin d'un PC puissant ?</h2>
+          <p>Un laptop basique (4GB RAM) suffit.</p>
+        </div>
+        <div class="testimonial-card flex-col">
+          <h2>Et si je rate une session ?</h2>
+          <p>Les replays sont disponibles.</p>
+        </div>
+        <div class="testimonial-card flex-col">
+          <h2>Y a-t-il du support après ?</h2>
+          <p>Oui, via le groupe WhatsApp.</p>
+        </div>
       </div>
     </section>
 
     <!-- Footer -->
     <footer>
-      <p>© 2025 code canvas. Tous droits réservés.</p>
-      <a href="https://wa.me/92398964"
-        ><img src="./assets/images/icons/brand-whatsapp.svg" alt="WhatsApp"
-      /></a>
-      <a href="https://instagram.com/ibtihelfrontend"
-        ><img src="./assets/images/icons/brand-instagram.svg" alt="instagram"
-      /></a>
-      <a href="https://facebook.com/ibtihel.bensalah1"
-        ><img src="./assets/images/icons/brand-facebook.svg" alt="fb"
-      /></a>
+      <h2>Suivez-nous</h2>
+      <ul>
+        <li>
+          <a href="https://wa.me/92398964"
+            ><img src="./assets/images/icons/brand-whatsapp.svg" alt="WhatsApp"
+          /></a>
+        </li>
+        <li>
+          <a href="https://instagram.com/ibtihelfrontend"
+            ><img
+              src="./assets/images/icons/brand-instagram.svg"
+              alt="instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="https://facebook.com/ibtihel.bensalah1"
+            ><img src="./assets/images/icons/brand-facebook.svg" alt="fb"
+          /></a>
+        </li>
+      </ul>
+      <p class="text-sm">© 2025 Code Canvas. Tous droits réservés.</p>
     </footer>
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
