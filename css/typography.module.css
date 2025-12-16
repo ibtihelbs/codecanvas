@@ -6,7 +6,8 @@ h3 {
   text-transform: uppercase;
 }
 
-h1 {
+h1,
+section h2.text-center {
   font-size: clamp(32px, 9vw, 100px);
   letter-spacing: -0.05;
   line-height: 0.95;
